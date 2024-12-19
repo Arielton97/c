@@ -1,9 +1,12 @@
 // Comentários
 /* Comentários de 
     muitas linhas
-    */
 
-/*
+    Este Readme é para eu me lembrar que 
+    a linguagem C usa o paradigma de programação estruturada
+*/
+
+    Introdução aos Fundamentos básicos de programação em C
     #include <stdio.h>  
         - Indica ao computador para carregar um arquivo;
     <stdio.h>           
@@ -21,5 +24,42 @@
         - Todos os comandos têm que terminar com um ponto-e-vírgula (;).
         - Caractere de escape (\) (barra invertida à esquerda): indica que 
         o *printf* deve pular uma linha;
+---
+
+Operações básicas em linguagem C
+// Comentários, #include <stdio.h> e main
+
+    Variáveis
+        - posições na memória nas quais um valor pode ser armazenado.
+    *int* significa que as varáveis podem guardar inteiros (-1, 3, 0, 47).
+    int1, int2, soma
     
-*/
+    identificadores
+        - consiste de letras, dígitos (*não* podem começar por dígitos) e sublinha(_).
+        case-sentitive (maiúscula diferente de minúscula).
+    
+    sncanf("%d", %inteiro1);
+        - obtém um valor inteiro digitado pelo teclado.
+        scanf() -> recebe dados do teclado.
+        %d -> indica que o dado deve ser um inteiro decimal.
+        %inteiro -> posição na memória que a variável que está armazenada.
+        & -> 'E comercial' adiciona ao nome da variável, o valor que vem do teclado.
+    
+    = (operador de atribuição)
+        - atribui um valor para a variável 
+        - soma = variavel1 + variavel2
+        - soma recebe variavel1 + variavel2
+    
+    printf("Soma é igual a %d\n", soma);
+        - %d -> um decimal inteiro será impresso.
+        - soma -> especifica qual inteiro será impresso.
+        - calculos podem ser realizados dentro de um comando printf.
+            printf("Soma é %d\n", int1 + int2);
+    
+    Nomes de variáveis correspondem a posições (locações) a serem reservadas nas memória.
+    Toda a variável tem um nome, um tipo, um tamanho e um valor.
+    Toda a variável pode ser substituída por outro valor.
+
+Aritmética
+    Precedência de operadores
+    - prioridades de operadores
