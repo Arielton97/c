@@ -1,0 +1,25 @@
+// Comentários
+/* Comentários de 
+    muitas linhas
+    */
+
+/*
+    #include <stdio.h>  
+        - Indica ao computador para carregar um arquivo;
+    <stdio.h>           
+        - Permite operações de entrada e saída;
+    int main() {}       
+        - Programas em C contém uma ou mais funções, uma das quais tem que ser exatamente main. 
+        Os parênteses são usados para indicar uma função:
+    int                 - 
+        - *int* ignifica main "retorna" um valor inteiro;
+    {}                  - 
+        - As chaves indicam a existência de um bloco; 
+        E corpo de todas as funções tem que estar contido entre as chaves;
+    printf("Bem-vindo ao C\n");
+        - Instrui o computador a realizar uma ação. Imprima a cadeia de caracteres entre aspas ("").
+        - Todos os comandos têm que terminar com um ponto-e-vírgula (;).
+        - Caractere de escape (\) (barra invertida à esquerda): indica que 
+        o *printf* deve pular uma linha;
+    
+*/
