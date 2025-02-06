@@ -10,7 +10,7 @@ VOID = Tipo de retorno + nome da função e o argumentos.
 */
 void funcaoMensagem();
 void somarNumeros(int num1, int num2);
-void somarTresNumeros(int n1, int n2, int n3);
+int somarTresNumeros(int n1, int n2, int n3);
 
 int main()
 {
@@ -58,13 +58,11 @@ void funcaoMensagem()
 void somarNumeros(int num1, int num2)
 {
 
-    cout << "Número 1: " << num1 << endl;
-    cout << "Número 2: " << num2 << endl;
     cout << "Total: " << num1 + num2 << endl;
 
 }
 
-void somarTresNumeros(int n1, int n2, int n3)
+int somarTresNumeros(int n1, int n2, int n3)
 {
 
     return n1 + n2 + n3;

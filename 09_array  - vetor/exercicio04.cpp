@@ -17,6 +17,9 @@ int main()
      */
 
     int numVetor[5];
+    int maior = 0;
+    int menor = 0;
+    int igual = 0;
 
     for (size_t i = 0; i < 5; i++)
     {
@@ -24,18 +27,32 @@ int main()
         cin >> numVetor[i];
     }
 
-    int posicaoArray = numVetor[0];
-    cout << "O array na posição 0 é " << posicaoArray << ".\n\n";
+    int posicaoPrimeiroArray = numVetor[0];
+    cout << "\nO array na posição 0 é " << posicaoPrimeiroArray << ".\n\n";
 
     for (size_t i = 0; i < 5; i++)
     {
-        if (i > posicaoArray)
+        //cout << numVetor[i] << endl;
+        int value = numVetor[i];
+
+        if (value > posicaoPrimeiroArray)
         {
-            cout << numVetor[i];
+            cout << "o valor " << value << " é maior que " << posicaoPrimeiroArray << endl;
+            maior++;
+        } else if (value < posicaoPrimeiroArray)
+        {
+            cout << "o valor " << value << " é menor que " << posicaoPrimeiroArray << endl;
+            menor++;
+        } else
+        {
+            cout << "o valor " << value << " é igual a " << posicaoPrimeiroArray << endl;
+            igual++;
         }
-        
     }
-    
+
+    cout << "\nO total de valores maiores que " << posicaoPrimeiroArray << " são: " << maior << endl;
+    cout << "O total de valores menores que " << posicaoPrimeiroArray << " são: " << menor << endl;
+    cout << "O total de valores iguais a " << posicaoPrimeiroArray << " são: " << igual << endl;
     
     
     
